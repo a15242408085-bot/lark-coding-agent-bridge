@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output (src/ui/generated is produced by `pnpm build:web`)
+dist/
+web/dist/
+src/ui/generated/
+*.tsbuildinfo
+
+# local state & secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.enc
+config.json
+
+# logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# test & coverage
+coverage/
+.vitest/
+
+# editor & os
+.DS_Store
+.idea/
+.vscode/
+*.swp
