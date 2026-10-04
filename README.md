@@ -58,7 +58,7 @@ Bridge 是一个跑在你机器上的常驻进程。它收飞书消息、转给�
 ### 一键启动
 
 ```bash
-git clone https://github.com/<your-account>/lark-coding-agent-bridge.git
+git clone https://github.com/a15242408085-bot/lark-coding-agent-bridge.git
 cd lark-coding-agent-bridge
 chmod +x run.sh
 ./run.sh
